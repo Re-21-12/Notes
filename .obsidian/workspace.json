@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "System Commands"
             }
+          },
+          {
+            "id": "84d6b2fa7ef09865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos 2/System Commands.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of System Commands"
+              "title": "Outline of README"
             }
           },
           {
@@ -179,10 +194,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "403f3287feb5799b",
+  "active": "84d6b2fa7ef09865",
   "lastOpenFiles": [
-    "Sistemas Operativos 2/Examen.md",
     "Sistemas Operativos 2/System Commands.md",
+    "Sistemas Operativos 2/Examen.md",
     "Sistemas Operativos 2/Sistemas Operativos 2.md",
     "Daily Notes/2025-04-30.md",
     "Sistemas Operativos 2/Comandos del kernel.md",

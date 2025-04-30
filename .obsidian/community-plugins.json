@@ -1,5 +1,7 @@
 [
   "obsidian-minimal-settings",
   "obsidian-discordrpc",
-  "github-sync"
+  "github-sync",
+  "calendar",
+  "obsidian-tasks-plugin"
 ]

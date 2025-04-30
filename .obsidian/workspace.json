@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "41a6e98c6149c7f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4fc8711d862dcec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "403f3287feb5799b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "32824ef5ff7a890c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7d9d3e7829634a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23b146b2c52448cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "76850bdc9875e834",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1d3e5a7e6082fbd3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "bac3efc2f93df876",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e6f5e3d3c272076",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ca074ed9d215d8c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Compiladores/Compiladores.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Compiladores"
+            }
+          },
+          {
+            "id": "f0bdfade2a5ffb80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Compiladores/Compiladores.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Compiladores"
+            }
+          },
+          {
+            "id": "b4eb5c9c8f9bd02d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d019f14232030a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "403f3287feb5799b",
+  "lastOpenFiles": [
+    "README.md",
+    "2025-04-29.md",
+    "Compiladores/Ejercicio Derivaciones.md",
+    "Compiladores/Compiladores.md",
+    "Compiladores/Modulo V ejercicio.md",
+    "Compiladores/Practica Compiladores.md",
+    "Sistemas Operativos 2/Comandos del kernel.md",
+    "Sistemas Operativos 2/Docker Practica.md",
+    "Sistemas Operativos 2/Sistemas Operativos 2.md",
+    "Sistemas Operativos 2/Examen.md",
+    "Compiladores/Imgs/Pasted image 20250428234934.png",
+    "Compiladores/Imgs/Pasted image 20250428232638.png",
+    "Compiladores/Imgs/Pasted image 20250428230333.png",
+    "Sistemas Operativos 2",
+    "Compiladores/Imgs/Pasted image 20250428220541.png",
+    "Compiladores/Imgs/Pasted image 20250427233120.png",
+    "Compiladores/Imgs",
+    "Compiladores/Imgs/Pasted image 20250428070327.png",
+    "Compiladores/Imgs/Pasted image 20250428215142.png",
+    "Compiladores/Imgs/Pasted image 20250428220139.png",
+    "Compiladores",
+    "Proof_Obs/Gramatica basica para variables.g",
+    "Proof_Obs/Unconfirmed 787806.crdownload"
+  ]
+}

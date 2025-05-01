@@ -6,16 +6,16 @@ Transforma el codigo fuente en tokens para el analisis sintactico
 
 | Herramienta | Descripcion                       |
 | ----------- | --------------------------------- |
-| Flex        | Rapido, ideal para C/C++          |
-| Lex         | Antiguo, usado en Unix            |
-| ANTLR       | Potente, multi lenguaje           |
-| JFlex       | Java, integrando con CUP          |
-| Ragel       | Procesamiento binario             |
-| RE2C        | Alto rendimiento, usado en SQLite |
+| 1. Flex     | Rapido, ideal para C/C++          |
+| 2. Lex      | Antiguo, usado en Unix            |
+| 3. ANTLR    | Potente, multi lenguaje           |
+| 4. JFlex    | Java, integrando con CUP          |
+| 5. Ragel    | Procesamiento binario             |
+| 6. RE2C     | Alto rendimiento, usado en SQLite |
 ***
 ## Analizador sintactico 
 ![[Pasted image 20250427233120.png]]
-### Tipos de analizadores sintacticos 
+### Tipos de analizadores sintacticos para gramaticas
 1. Universales
 2. Descendentes
 3. Ascendentes
@@ -38,11 +38,13 @@ Son gramaticas que pueden ser resueltas por izquierda como por derecha
 ## Manejo de los errores sintacticos
 1. Modo panico
 2. Nivel de frase
+
 #### Niveles de errores
 1. Errores lexicos: Escritura incorrecta
 2. Errores sintacticos: Colocacion incorrecta de signos de punto, coma y llaves
 3. Errores semanticos: Conflictos entre operandos y operadores
 4. Errores logicos: Errores en operadores 
+
 ### ¿De qué manera un manejo de errores debe reportar la presencia de un error?
 Al menos debe reportar el lugar en el programa fuente donde fallo
 ### ¿Cómo debe asegurarse el analizador sintáctico?

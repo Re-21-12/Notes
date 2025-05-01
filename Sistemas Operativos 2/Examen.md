@@ -67,8 +67,6 @@ docker pull nginx:latest
 
 ``` docker
 
-version: '3.8'  # Versión del esquema de docker-compose
-
 services:
   webserver:
     image: nginx:latest  # Usa la última imagen oficial de Nginx
@@ -76,7 +74,7 @@ services:
     ports:
       - "8080:80"  # Mapea el puerto 80 del contenedor al 8080 del host
     volumes:
-      - ./html:/usr/share/nginx/html  # Monta una carpeta local como contenido web
+	      - ./html:/usr/share/nginx/html  # Monta una carpeta local como contenido web
     restart: unless-stopped  # Reinicia el contenedor automáticamente si se detiene
 
 # Esto crea un contenedor Nginx que servirá archivos estáticos desde ./html

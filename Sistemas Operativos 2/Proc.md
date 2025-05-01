@@ -1,73 +1,86 @@
-El sistema de archivos `/proc` contiene un sistema de archivos imaginario o virtual. 
+## 📂 Sistema de Archivos `/proc` en Linux
 
-`/proc/1`
+El sistema de archivos **`/proc`** es un sistema de archivos virtual que proporciona una vista en tiempo real de la información del kernel y de los procesos en ejecución. No ocupa espacio en disco real.
 
-Un directorio con información acerca del proceso número 1. Cada proceso tiene un directorio debajo de /proc cuyo nombre es el número de identificación del proceso (PID).
+---
 
-`/proc/cpuinfo`
+### 📌 Directorios por Proceso
 
-Información acerca del procesador: su tipo, marca, modelo, rendimiento, etc.
+- **`/proc/1`**  
+  Contiene información sobre el proceso con PID 1.  
+  Cada proceso en el sistema tiene su propio subdirectorio en `/proc` identificado por su **PID**.
 
-`/proc/devices`
+---
 
-Lista de controladores de dispositivos configurados dentro del núcleo que está en ejecución.
+### 🧠 Información del Sistema
 
-`/proc/dma`
+- **`/proc/cpuinfo`**  
+  Detalles del procesador: modelo, núcleos, velocidad, etc.
 
-Muestra los canales DMA que están siendo utilizados.
+- **`/proc/meminfo`**  
+  Información del uso de memoria física y swap.
 
-`/proc/filesystems`
+- **`/proc/uptime`**  
+  Tiempo en segundos desde que el sistema fue iniciado.
 
-Lista los sistemas de archivos que están soportados por el kernel.
+- **`/proc/loadavg`**  
+  Promedio de carga del sistema (similar a `uptime` o `top`).
 
-`/proc/interrupts`
+- **`/proc/version`**  
+  Versión del kernel en ejecución.
 
-Muestra la interrupciones que están siendo utilizadas, y cuantas de cada tipo ha habido.
+- **`/proc/stat`**  
+  Estadísticas globales del sistema, como tiempo de CPU, procesos, etc.
 
-`/proc/ioports`
+---
 
-Información de los puertos de E/S que se estén utilizando en cada momento.
+### 🧩 Kernel y Módulos
 
-`/proc/kcore`
+- **`/proc/modules`**  
+  Lista de módulos del núcleo actualmente cargados.
 
-Es una imagen de la memoria física del sistema. Este archivo tiene exactamente el mismo tamaño que la memoria física, pero no existe en memoria como el resto de los archivos bajo /proc, sino que se genera en el momento en que un programa accede a este. (Recuerde: a menos que copie este archivo en otro lugar, nada bajo `/proc` usa espacio en disco).
+- **`/proc/ksyms`**  
+  Tabla de símbolos del kernel.
 
-`/proc/kmsg`
+- **`/proc/kcore`**  
+  Imagen virtual de la memoria física del sistema (como un archivo core dump gigante).
 
-Salida de los mensajes emitidos por el kernel. Estos también son redirigidos hacia **syslog**.
+- **`/proc/kmsg`**  
+  Mensajes del kernel. También se redirigen a `syslog`.
 
-`/proc/ksyms`
+---
 
-Tabla de símbolos para el kernel.
+### 💾 Dispositivos y Recursos
 
-`/proc/loadavg`
+- **`/proc/devices`**  
+  Lista de controladores de dispositivos registrados en el kernel.
 
-El nivel medio de carga del sistema; tres indicadores significativos sobre la carga de trabajo del sistema en cada momento.
+- **`/proc/dma`**  
+  Canales DMA en uso.
 
-`/proc/meminfo`
+- **`/proc/interrupts`**  
+  Interrupciones activas y cuántas veces se han usado.
 
-Información acerca de la utilización de la memoria física y del archivo de intercambio.
+- **`/proc/ioports`**  
+  Información de puertos de entrada/salida utilizados.
 
-`/proc/modules`
+---
 
-Indica los módulos del núcleo que han sido cargados hasta el momento.
+### 🌐 Red
 
-`/proc/net`
+- **`/proc/net`**  
+  Información sobre el estado de los protocolos de red.
 
-Información acerca del estado de los protocolos de red.
+---
 
-`/proc/self`
+### 🔁 Otros
 
-Un enlace simbólico al directorio de proceso del programa que esté observando a `/proc`. Cuando dos procesos observan a `/proc`, obtienen diferentes enlaces. Esto es principalmente una conveniencia para que sea fácil para los programas acceder a su directorio de procesos.
+- **`/proc/filesystems`**  
+  Sistemas de archivos soportados por el kernel.
 
-`/proc/stat`
+- **`/proc/self`**  
+  Enlace simbólico al directorio `/proc/[PID]` del proceso que accede.
 
-Varias estadísticas acerca del sistema, tales como el número de fallos de página que han tenido lugar desde el arranque del sistema.
+---
 
-`/proc/uptime`
-
-Indica el tiempo en segundos que el sistema lleva funcionando.
-
-`/proc/version`
-
-Indica la versión del núcleo
+> 📝 **Nota:** A menos que se copien explícitamente, los archivos en `/proc` **no ocupan espacio en disco**. Son generados en tiempo real por el kernel.

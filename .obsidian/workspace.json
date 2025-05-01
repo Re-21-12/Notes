@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Compiladores/Compiladores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Compiladores"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Compiladores/Compiladores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Compiladores"
             }
           },
           {
@@ -196,12 +196,12 @@
   },
   "active": "84d6b2fa7ef09865",
   "lastOpenFiles": [
-    "Sistemas Operativos 2/System Commands.md",
-    "Sistemas Operativos 2/Examen.md",
     "Sistemas Operativos 2/Sistemas Operativos 2.md",
-    "Daily Notes/2025-04-30.md",
     "Sistemas Operativos 2/Comandos del kernel.md",
     "README.md",
+    "Sistemas Operativos 2/System Commands.md",
+    "Sistemas Operativos 2/Examen.md",
+    "Daily Notes/2025-04-30.md",
     "Daily Notes",
     "2025-04-29.md",
     "Compiladores/Ejercicio Derivaciones.md",

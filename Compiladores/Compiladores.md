@@ -4,31 +4,6 @@
 Transforma el codigo fuente en tokens para el analisis sintactico 
 ### Herramientas principales
 
-#### Flex(Fast Lexical Analyzer):
-	a. Generadores lexicos en C y C++
-	b. Usa expresiones regulares para tokens
-	c. Integracion con GCC 
-#### Lex(Lexical Analyzer Generator)
-	a. Similares a flex
-	b. Reglas basadas en expresiones regulares
-	c. Genera codigo C para el analisis lexico
-#### ANTLR Another tool for language reconigtion
-	a. Genera analizadores lexicos y sintacticos
-	b. Soporta Java, C#, Js, Python
-	c. Usa .g4
-#### Jflex
-	a. Es para java
-	b. Usa CUP para analisis sintactico
-	c. Usa expresiones para reconocimiento lexico
-#### Ragel
-	a. Basado en maquinas de estados finitos
-	b. Soporta C, C++, Java, Go
-	c. Analisis binarios y protocolos
-#### RE2C
-	a. Generador de analizadores lexico C y C++
-	b. Mas rapido que Flex y lex
-	c. Usado en sqlite
-
 | Herramienta | Descripcion                       |
 | ----------- | --------------------------------- |
 | Flex        | Rapido, ideal para C/C++          |
@@ -68,9 +43,9 @@ Son gramaticas que pueden ser resueltas por izquierda como por derecha
 2. Errores sintacticos: Colocacion incorrecta de signos de punto, coma y llaves
 3. Errores semanticos: Conflictos entre operandos y operadores
 4. Errores logicos: Errores en operadores 
-### ¿De qué manera un mango de errores debe reportar la presencia de un error?
+### ¿De qué manera un manejo de errores debe reportar la presencia de un error?
 Al menos debe reportar el lugar en el programa fuente donde fallo
-### ¿Cómo debe recuperarse el analizador sintáctico?
+### ¿Cómo debe asegurarse el analizador sintáctico?
 1. Que el analizador sintactico termine
 2. El compilador se restaura para detallar informacion
 3. Apilacion de errores
@@ -111,13 +86,6 @@ Al menos debe reportar el lugar en el programa fuente donde fallo
 	 * [u,v,z] (Vacias)
 3. Simbolos gramaticales
 	* [X,Y,Z]
-### Derivaciones
-Construccion de un arbol sintactico
-Las producciones son reglas de rescritura
-Empieza por el simbolo inicial
-En cada paso se sustituye
-
-
 ### Practica [[Practica Compiladores]]
 ## Generacion de codigo intermedio
 

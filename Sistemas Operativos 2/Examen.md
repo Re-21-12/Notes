@@ -77,6 +77,5 @@ services:
 	      - ./html:/usr/share/nginx/html  # Monta una carpeta local como contenido web
     restart: unless-stopped  # Reinicia el contenedor automáticamente si se detiene
 
-# Esto crea un contenedor Nginx que servirá archivos estáticos desde ./html
 
 ```

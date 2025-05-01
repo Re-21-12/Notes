@@ -42,8 +42,8 @@ Son gramaticas que pueden ser resueltas por izquierda como por derecha
 #### Niveles de errores
 1. Errores lexicos: Escritura incorrecta
 2. Errores sintacticos: Colocacion incorrecta de signos de punto, coma y llaves
-3. Errores semanticos: Conflictos entre operandos y operadores
-4. Errores logicos: Errores en operadores 
+3. Errores semanticos: Conflictos de tipos entre operandos y operadores
+4. Errores logicos: Errores en la intencion del programador 
 
 ### ¿De qué manera un manejo de errores debe reportar la presencia de un error?
 Al menos debe reportar el lugar en el programa fuente donde fallo

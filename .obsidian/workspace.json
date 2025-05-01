@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compiladores/Compiladores.md",
+                "file": "Sistemas Operativos 2/Sistemas Operativos 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compiladores"
+              "title": "Sistemas Operativos 2"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compiladores/Compiladores.md",
+                "file": "Sistemas Operativos 2/Sistemas Operativos 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Compiladores"
+              "title": "Outline of Sistemas Operativos 2"
             }
           },
           {
@@ -196,16 +196,16 @@
   },
   "active": "84d6b2fa7ef09865",
   "lastOpenFiles": [
-    "Sistemas Operativos 2/Sistemas Operativos 2.md",
     "Sistemas Operativos 2/Comandos del kernel.md",
-    "README.md",
     "Sistemas Operativos 2/System Commands.md",
+    "Sistemas Operativos 2/Sistemas Operativos 2.md",
     "Sistemas Operativos 2/Examen.md",
+    "Compiladores/Compiladores.md",
+    "README.md",
     "Daily Notes/2025-04-30.md",
     "Daily Notes",
     "2025-04-29.md",
     "Compiladores/Ejercicio Derivaciones.md",
-    "Compiladores/Compiladores.md",
     "Compiladores/Modulo V ejercicio.md",
     "Compiladores/Practica Compiladores.md",
     "Compiladores/Imgs/Pasted image 20250428234934.png",

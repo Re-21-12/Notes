@@ -10,19 +10,6 @@ Herramienta preinstalada para ver procesos y recursos del sistema.
 - **Stopped**: Procesos detenidos manualmente.
 - **Zombie**: Procesos finalizados pero no limpiados.
 
-## ⏱️ Uptime / Downtime
-- **Uptime**: Tiempo que el sistema lleva activo.
-- **Downtime**: Tiempo que ha estado fuera de línea.
-
-## 📊 Otras herramientas de monitoreo
-- **vmstat**: Estadísticas de memoria, carga de CPU, eventos del sistema.
-- **df**: Revisión del espacio de disco ("Disk Filesystem").
-- **free**: Resumen del uso de memoria RAM.
-- **htop**: Monitor interactivo de procesos (mejora visual de `top`).
-- **iostat**: Estadísticas de entrada/salida de discos.
-- **lsof**: Muestra archivos abiertos por procesos (incluye sockets, pipes, etc).
-- **/proc**: Sistema de archivos virtual con información del sistema.
-
 ---
 
 # 🔧 Administración de Servicios y Redes

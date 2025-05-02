@@ -33,8 +33,6 @@ Permite controlar remotamente servidores de forma segura.
 ## FTP (File Transfer Protocol)
 Protocolo para transferencia de archivos.
 
-- **FileZilla**: Cliente gráfico para subir/descargar archivos vía FTP.
-
 ## NFS (Network File System)
 Permite acceder a archivos remotos como si fueran locales.
 

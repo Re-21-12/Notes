@@ -47,10 +47,12 @@ Son gramaticas que pueden ser resueltas por izquierda como por derecha
 
 ### ¿De qué manera un manejo de errores debe reportar la presencia de un error?
 Al menos debe reportar el lugar en el programa fuente donde fallo
+
 ### ¿Cómo debe asegurarse el analizador sintáctico?
 1. Que el analizador sintactico termine
 2. El compilador se restaura para detallar informacion
 3. Apilacion de errores
+
 ### Estrategias para recuperar errores
 1. Recuperacion modo panico
 	 Descarta los simbolos de entrada hasta encontrar un delimitador
@@ -74,6 +76,7 @@ Al menos debe reportar el lugar en el programa fuente donde fallo
 	 1. Un no terminal (Lado izquierdo): Define algunas cadenas 
 	 2. Simbolo
 	 3. Cuerpo (Lado derecho): **0 o n** no terminales 
+
 ## Convenciones de notacion
 1. Terminales
 	* [a, b,c]
@@ -88,12 +91,15 @@ Al menos debe reportar el lugar en el programa fuente donde fallo
 	 * [u,v,z] (Vacias)
 3. Simbolos gramaticales
 	* [X,Y,Z]
+
 ### Practica [[Practica Compiladores]]
+
 ## Generacion de codigo intermedio
 
 1. Frontend analiza programa fuente -> crea una representacion intermedia
  2. Backend genera codigo destino
 	 ![[Pasted image 20250428220139.png]]
+
 ### Codigo de tres direcciones
 1. Maximo hay un solo operador del lado derecho
 2. Basado en dos conceptos
@@ -103,6 +109,7 @@ Al menos debe reportar el lugar en el programa fuente donde fallo
 		* Valor temporal: Es importante al optimizar
 	2. Instrucciones
 	 ![[Pasted image 20250428220541.png]]
+
 ### Lista de las formas comunes de instrucciones de tres direcciones
 - **Asignaciones binarias**
      - **Forma:** `x = y op z`
@@ -132,6 +139,7 @@ Al menos debe reportar el lugar en el programa fuente donde fallo
 - **Saltos condicionales con relación**
      - **Forma:** `if x relop y goto L`
      - **Descripción:** Se realiza una comparación (`relop` puede ser `==`, `!=`, `<`, `>`, `<=`, `>=`), y si la condición es verdadera, se salta a `L`.
+
  - ####  **Llamadas a procedimientos y retornos en código de tres direcciones**
 
 - **`param x`**
@@ -148,14 +156,10 @@ Al menos debe reportar el lugar en el programa fuente donde fallo
 - **`return y`**
     - Termina la ejecución del procedimiento o función, devolviendo el valor `y`.
     - Si no hay valor que devolver, simplemente se usa `return`.
-### Cuadruplos
-Tiene cuatro campos op, arg1, arg2, resultado
-#### Tripletas
-Tiene tres campos op, arg1, arg2 
 
-| Op  | arg1 | arg2 | resultado |
-| --- | ---- | ---- | --------- |
-| +   | z    | y    | x         |
+|     |
+| --- |
+|     |
 #### Transformar un abol de tres direcciones a cuadruplos
 ![[Pasted image 20250428232638.png]]
 

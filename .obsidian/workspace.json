@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos 2/Comandos del kernel.md",
+                "file": "Compiladores/Ejercicio Derivaciones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comandos del kernel"
+              "title": "Ejercicio Derivaciones"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos 2/Comandos del kernel.md",
+                "file": "Compiladores/Ejercicio Derivaciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comandos del kernel"
+              "title": "Outline of Ejercicio Derivaciones"
             }
           },
           {
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 216.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,13 +197,13 @@
   "active": "84d6b2fa7ef09865",
   "lastOpenFiles": [
     "Compiladores/Compiladores.md",
-    "Compiladores/Modulo V ejercicio.md",
-    "Compiladores/Ejercicio Derivaciones.md",
     "Compiladores/Practica Compiladores.md",
-    "Sistemas Operativos 2/Proc.md",
-    "Sistemas Operativos 2/Sistemas Operativos 2.md",
-    "Sistemas Operativos 2/Examen.md",
     "Sistemas Operativos 2/Comandos del kernel.md",
+    "Sistemas Operativos 2/Proc.md",
+    "Sistemas Operativos 2/Examen.md",
+    "Compiladores/Ejercicio Derivaciones.md",
+    "Sistemas Operativos 2/Sistemas Operativos 2.md",
+    "Compiladores/Modulo V ejercicio.md",
     "Sistemas Operativos 2/System Commands.md",
     "README.md",
     "Daily Notes/2025-04-30.md",

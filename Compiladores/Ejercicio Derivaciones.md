@@ -102,3 +102,45 @@ S ( S ) S ( S ) S
 ```
 
 No es ambigua
+
+## Quinto ejercicio
+S -> ( L )
+S -> a
+L -> L, S
+L -> S
+
+cadena ( (a, a), a , (a))
+
+derivacion por izquierda
+```
+S 
+(L)
+(L,S)
+(S,S)
+((L),S)
+((L,S),S)
+((L,S),S)
+((S,S),S)
+((a,S),S)
+((a,a),S)
+((a,a),S)
+```
+derivacion por derecha
+```
+S
+(L)
+(L,S)
+(L,(L))
+(L,(S))
+(L,(a))
+(L,S,(a))
+(L,a,(a))
+(S,a,(a))
+((L),a,(a))
+((L,S),a,(a))
+((L,a),a,(a))
+((S,a),a,(a))
+((a,a),a,(a))
+```
+
+no es ambigua

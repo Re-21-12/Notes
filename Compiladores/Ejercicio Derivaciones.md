@@ -144,3 +144,32 @@ S
 ```
 
 no es ambigua
+
+## Sexto ejercicio
+
+S -> a S b S
+S -> b S a S 
+S -> E
+
+cadena aabbab
+
+Derivacion por izquierda
+```
+S
+a S b S
+a a S b S b S
+a a b b S
+a a b b a S b S
+a a b b a b S
+a a b b a b 
+```
+
+Derivacion por derecha
+```
+S
+a S b S
+a S b b S a S
+a S b b S a b S a S
+```
+
+No es ambigua
